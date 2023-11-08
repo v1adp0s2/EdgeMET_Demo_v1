@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.met_demo_v1.integrations:_er_GetAccount
+  packages:
+  - name: EdgeMET_Demo_v1
+    version: "1.0"
 packages:
 - name: EdgeMET_Demo_v1
   gitServerName: VLPO_REPO_GITEX_ACP
